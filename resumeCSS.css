@@ -1,0 +1,72 @@
+body {
+	background-color: lightgrey;
+	text-align: center;
+}
+#name {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 40px;
+	text-align: center;
+}
+
+#ffed {
+	font-size: 30px;
+	font-family: 'Courier New', Courier, monospace;
+}
+p {
+	text-align: center;
+}
+h2 {
+	font-size: 25;
+	text-align: center;
+	text-decoration: underline;
+}
+ul {
+	margin-bottom: 0px;
+}
+
+section {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	margin-left: -20px;
+}
+#contact {
+	text-align: center;
+}
+
+#webDev {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+#media {
+	margin-left: 0px;
+}
+#data {
+	margin-left: 0px;
+}
+
+#edu {
+	text-align: center;
+}
+h3 {
+	margin-bottom: -10px;
+}
+#info {
+	text-decoration: none;
+}
+
+#p1 {
+	height: 600px;
+	justify-content: flex;
+}
+#p2 {
+	width: 500px;
+}
+#p3 {
+	height: 600px;
+}
+
+/* this was written a while ago and is probably redundant */
+/* adding to github for practice etc */
