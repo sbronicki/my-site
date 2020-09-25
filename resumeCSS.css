@@ -1,72 +1,51 @@
-body {
-	background-color: lightgrey;
-	text-align: center;
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
-#name {
-	font-family: 'Courier New', Courier, monospace;
-	font-size: 40px;
-	text-align: center;
+body {
+	background-color: lightgray;
+	padding: 50px 50px;
 }
 
-#ffed {
-	font-size: 30px;
-	font-family: 'Courier New', Courier, monospace;
-}
-p {
+#container {
+	max-width: 60%;
+	font-family: monospace;
 	text-align: center;
+	margin: auto;
+	border: 5px solid #999;
+}
+h1 {
+	padding: 20px 10px 0px;
+	font-family: 'Courier New';
+	font-size: 36px;
 }
 h2 {
-	font-size: 25;
-	text-align: center;
-	text-decoration: underline;
+	padding: 10px 10px;
+	font-family: 'Courier New';
+	font-size: 24px;
 }
-ul {
-	margin-bottom: 0px;
-}
-
-section {
-	text-align: center;
-}
-
-li {
-	list-style-type: none;
-	margin-left: -20px;
-}
-#contact {
-	text-align: center;
-}
-
-#webDev {
-	margin-left: 0px;
-	margin-right: 0px;
-}
-#media {
-	margin-left: 0px;
-}
-#data {
-	margin-left: 0px;
-}
-
-#edu {
-	text-align: center;
+p {
+	padding: 10px 10px;
+	font-size: 16px;
+	padding: 0% 15%;
+	line-height: 18px;
 }
 h3 {
-	margin-bottom: -10px;
+	font-size: 18px;
+	padding: 0px 10px 10px 10px;
 }
-#info {
+li {
+	list-style: none;
+	padding-bottom: 10px;
+	font-size: 16px;
+}
+a {
 	text-decoration: none;
+	color: blue;
+	display: block;
+	font-size: 16px;
 }
-
-#p1 {
-	height: 600px;
-	justify-content: flex;
+#links {
+	padding-bottom: 20px;
 }
-#p2 {
-	width: 500px;
-}
-#p3 {
-	height: 600px;
-}
-
-/* this was written a while ago and is probably redundant */
-/* adding to github for practice etc */
