@@ -21,7 +21,7 @@ if (window.innerWidth < 768) {
 <div class="row">
     <div class="column">
         <div class="column-1">
-            <img src="Scan 9 copy.jpeg" alt="">
+            <img src="img/swampweed.jpeg" alt="">
         </div>
     </div>
     <div class="column">
