@@ -255,4 +255,10 @@ ul li a {
 	.contact .column-txt {
 		padding: 0 0;
 	}
+	.top-border-container {
+		border: none;
+	}
+	.bottom-border-container {
+		border: none;
+	}
 }
