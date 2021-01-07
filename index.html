@@ -10,157 +10,151 @@
     <link rel="stylesheet" href="style.css">
     <title>Stanley E. Bronicki II | Jr. Web Developer</title>
 </head>
-<body id="home">
-    <header class="hero">
-        <div id="navbar" class="navbar top">
+<body>
+    <header id="home" class="hero">
+        <div id="navbar" class="navbar top color-primary">
             <nav>
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#education">Education</a></li>
-                    <li><a href="#links">Links</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
         <div class="content">
             <h1>Stanley Bronicki</h1>
-            <h2>Jr. Web Developer</h2>
+            <h3>Jr. Web Developer</h3>
         </div>
     </header>
-
     <main>
-        <!-- About -->
+        <!-- about me  -->
         <section id="about" class="about">
-            <header class="section-header">
-                <h2>A little bit about me</h2>
-                <p>I recently graduated from NJIT with a bachelor's in physics, though currently I'm studying independently to become a professional frontend web developer. In light of my recent decision to switch career paths I've been learning all that I can about web development, particularly HTML & CSS, JavaScript, Angular & Git. I'm determined, logical and a fast learner with a wide range of technical and problem-solving skills so for me this journey so far, although difficult has been incredibly rewarding and yet it is only just beginning. I look forward to continuing the development of my skills as well as all the projects I'll take on in the future. My main goal at this time is to hone my coding skills to the point that I am able to work for a company who will provide me with challenges and opportunities which I can use to further increase my effectiveness as a web developer! </p>
+            <header class="about-header">
+                <div class="header-summary-container">
+                    <h2>A little bit about me</h2>
+                <p>I recently graduated from NJIT with a bachelor's in physics, though currently I'm studying independently to become a professional frontend web developer. In light of my recent decision to switch career paths I've been learning all that I can about web development, particularly JavaScript, Angular, Node.js & Git. I'm determined, logical and a fast learner with a wide range of technical and problem-solving skills so for me this journey so far, although difficult has been incredibly rewarding and yet it is only just beginning. I look forward to continuing the development of my skills as well as all the projects I'll take on in the future. My main goal at this time is to hone my coding skills to the point that I am able to work for a company who will provide me with challenges and opportunities which I can use to further increase my effectiveness as a web developer!</p>
+                </div>
             </header>
-    
         </section>
-        <!-- skills -->
-        <div id="skills" class="skills flex-items">
-            <section class="skills flex-columns">
-                <div class="row">
+        <!-- skills/hobby/education -->
+        <div id="skills">
+            <section class="flex-columns">
+                <div class="row web-dev">
                     <div class="column">
-                        <div class="column-1">
+                        <div class="column-img">
                             <img src="img/IMG_0119.jpg" alt="">
                         </div>
                     </div>
-                    <div class="column">
-                        <div class="column-2">
-                            <div>
-                                <h3 class="skills">Web Development</h3>
-                                <p>HTML5, CSS3, JavaScript, Angular, Git</p>
-                                <h2>Projects</h2>
+                    <div class="column top-border-container">
+                        <!-- <div class="top-border-container"> -->
+                            <div class="column-txt">
+                                <h2>Web Development</h2>
+                                <p>HTML5, CSS3, JavaScript, MongoDB, Express, Angular, Node.js, Git</p>
+                                <h3>Projects</h3>
                                 <ul>
-                                    <li><a class="proj" href="https://www.anthonyjanpotter.com">anthonyjanpotter.com</a></li>
-                                    <li><a class="proj" href="https://eager-euclid-d9fb99.netlify.app/">Pokémon App</a></li>
                                     <li><a class="proj" href="https://github.com/sbronicki">My GitHub</a></li>
+                                    <li><a class="proj" href="https://eager-euclid-d9fb99.netlify.app/">Pokémon App</a></li>
+                                    <li><a class="proj" href="https://www.anthonyjanpotter.com">anthonyjanpotter.com</a>
+                                    </li>
                                 </ul>
-                                
                             </div>
-                        </div>
+                        <!-- </div> -->
                     </div>
                 </div>
-            </section>
-            <section id="mediaSection" class="skills flex-columns">
-                <div class="row">
-                    <div class="column">
-                        <div class="column-2">
-                            <div>
-                                <h3 class="skills">Film & Photography/Media Editing</h3>
+                <div id="mobileSwitch">
+                    <div class="row hobby">
+                        <div class="column">
+                            <div class="column-txt">
+                                <h2>Film, Photography & Media Editing</h2>
                                 <p>Photoshop, Final Cut Pro</p>
-                                <h2><a href="https://www.youtube.com/nimso9">My YouTube</a></h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="column-1">
-                            <img src="img/swampweed.jpeg" alt="">
-                        </div>
-                    </div>
-                </div>
-            </section>
-        </div>
-        <!-- education -->
-        <div id="education" class="education flex-items">
-            <section class="skills flex-columns">
-                <div class="row">
-                    <div class="column">
-                        <div class="column-1">
-                            <img src="img/IMG_0126.jpg" alt="">
-                        </div>
-                    </div>
-                    <div class="column">
-                        <div class="column-2">
-                            <div>
-                                <h3 class="skills">Education</h3>
                                 <ul>
-                                    <li>Bachelor's of Physics from New Jersey Institue of Technology (NJIT) </li>
-                                    <li>Associate's in Physics from Brookdale Community College (BCC)</li>
-                                    <li>Associate's in Mathematics (BCC)</li>
-                                    <li>Associate's in Social Sciences (BCC)</li>
+                                    <li><a href="https://www.youtube.com/nimso9">My YouTube</a></li>
                                 </ul>
-                               
+                            </div>
+                        </div>
+                        <div class="column">
+                            <div class="column-img">
+                                <img src="img/swampweed.jpeg" alt="">
                             </div>
                         </div>
                     </div>
+                    <div id="education" class="row education">
+                        <div class="column">
+                            <div class="column-img">
+                                <img src="img/IMG_0126.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="column bottom-border-container">
+                            <!-- <div class="bottom-border-container"> -->
+                                <div class="column-txt">
+                                    <h2 class="skills">Education</h2>
+                                    <p>
+                                        Bachelor of Physics from New Jersey Institue of Technology (NJIT) <br>
+                                        Associate of Physics from Brookdale Community College (BCC) <br>
+                                        Associate of Mathematics (BCC) <br>
+                                        Associate of Social Sciences (BCC) <br>
+                                    </p>
+                                </div>
+                            <!-- </div> -->
+                        </div>
+                    </div id="education"  >
                 </div>
             </section>
         </div>
         <!-- contact -->
-        <section id="contact" class="contact flex-columns">
-            <div class="row">
-                <div class="column">
-                    <div class="column-1">
-                        <img src="img/noborder.jpg" alt="">
-                    </div>
-                </div>
-                <div class="column">
-                    <div class="column-2 bg-light flex-items">
-                        <div class="form-top">
-                            <h2>Need to get in touch?</h2>
-                        <h3>Leave a message</h3>
-                        <form name="contact" action="" class="callback-form" method="POST" data-netlify="true">
-                            <div class="form-control">
-                                <label for="name">Name</label>
-                                <input type="text" name="name" id="name">
-                            </div>
-                            <div class="form-control">
-                                <label for="email">Email</label>
-                                <input type="text" name="email" id="email">
-                            </div>
-                            <div class="form-control">
-                                <label for="phone">Phone</label>
-                                <input type="text" name="phone" id="phone">
-                            </div>
-                            <div class="form-control">
-                                <label for="message">Message</label>
-                                <input type="text" name="message" id="msgbox" class="msgbox">
-                            </div>
-                            <input type="submit" value="Send" id="submit" class="btn">
-                        </form>
-                        </div>
-                        <div class="contact">
-                            <h3>Stanley E. Bronicki II</h3>
-                            <h2>sbronicki@gmail.com</h2>
+        <div id="contact" class="contact">
+            <section class="flex-columns">
+                <div class="row">
+                    <div class="column">
+                        <div class="column-img">
+                            <img src="img/nobordercropped.jpg" alt="">
                         </div>
                     </div>
+                    <div class="column">
+                        <div class="column-txt flex-items">
+                            <div class="form-top">
+                                <h3>Need to get in touch?</h3>
+                            <h2>Leave a message</h2>
+                            <form name="contact" action="" class="callback-form" method="POST" data-netlify="true">
+                                <div class="form-control">
+                                    <label for="name">Name</label>
+                                    <input type="text" name="name" id="name">
+                                </div>
+                                <div class="form-control">
+                                    <label for="email">Email</label>
+                                    <input type="text" name="email" id="email">
+                                </div>
+                                <div class="form-control">
+                                    <label for="phone">Phone</label>
+                                    <input type="text" name="phone" id="phone">
+                                </div>
+                                <div class="form-control">
+                                    <label for="message">Message</label>
+                                    <input type="text" name="message" id="msgbox" class="msgbox">
+                                </div>
+                                <input type="submit" value="Send" id="submit" class="btn color-primary">
+                            </form>
+                            </div>
+                            <div class="contact-content">
+                                <h3>Stanley E. Bronicki II</h3>
+                                <h3 class="email">sbronicki@gmail.com</h3>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
     </main>
-    <footer id="links"class="footer bg-primary">
+    <footer class="footer color-primary">
         <div class="social">
-            <a href=""><i class="fab fa-twitter fa-2x"></i></a>
             <a href="https://www.youtube.com/nimso9"><i class="fab fa-youtube fa-2x"></i></a>
             <a href="https://github.com/sbronicki"><i class="fab fa-github fa-2x"></i></a>
             <a href="https://www.linkedin.com/in/stanley-bronicki-b98233190"><i class="fab fa-linkedin fa-2x"></i></a>
         </div>
         <p>Copyright &copy; 2020 Stanley Bronicki</p>
     </footer>
-    
 </body>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
 <script src="lightbox.min.js"></script>
