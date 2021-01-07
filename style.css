@@ -233,29 +233,26 @@ ul li a {
 /* mobile */
 @media (max-width: 768px) {
 	.navbar {
-		flex-direction: column;
-		height: 70px;
-		padding: 20px;
-	}
-	.navbar a {
-		padding: 10px 10px;
-		margin: 0 3px;
+		display: none;
 	}
 	.flex-items {
 		flex-direction: column;
 	}
-	.flex-columns .column,
-	.flex-grid .columns {
+	.column {
 		flex: 100%;
 		max-width: 100%;
 	}
-	.about p {
-		max-width: 80%;
+	.header-summary-container {
+		max-width: 90%;
 		padding: 0 0;
 		border: none;
 		line-height: 1.6;
+		font-weight: 1;
 	}
-	.hobby h2 {
-		font-size: 30px;
+	.column-txt {
+		padding: 10% 15%;
+	}
+	.contact .column-txt {
+		padding: 0 0;
 	}
 }
