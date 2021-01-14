@@ -54,4 +54,3 @@ if (window.innerWidth < 768) {
                         </div>
                     </div>`;
 }
-// add event listener to detect shrinking screen size
