@@ -1,2 +1,2 @@
 # my-site
-https://stanleybronicki.com
+https://sbronicki.com
